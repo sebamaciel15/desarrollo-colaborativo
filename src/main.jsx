@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Desarrollo } from './Desarrollo'
-import './index.css'
+import { Index } from './Home'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Desarrollo />
+    <Index />
   </React.StrictMode>,
 )
